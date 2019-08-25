@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>1.11</maven.compiler.source>
-        <maven.compiler.target>1.11</maven.compiler.target>
+`        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <modules>
@@ -19,4 +19,17 @@
         <module>compiling</module>
         <module>monitoring</module>
     </modules>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
