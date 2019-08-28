@@ -18,6 +18,7 @@
         <module>classloading</module>
         <module>compiling</module>
         <module>monitoring</module>
+        <module>functional-programming</module>
     </modules>
 
 
